@@ -12,10 +12,7 @@ return {
 				require("gitsigns").diffthis("~")
 			end)
 
-			vim.keymap.set("n", "<leader>hs", ":Gitsigns stage_hunk<CR>", {})
 			vim.keymap.set("n", "<leader>hr", ":Gitsigns reset_hunk<CR>", {})
-
-			vim.keymap.set("n", "<leader>hS", ":Gitsigns stage_buffer<CR>", {})
 			vim.keymap.set("n", "<leader>hR", ":Gitsigns reset_buffer<CR>", {})
 
 			vim.keymap.set("n", "<leader>tb", ":Gitsigns toggle_current_line_blame<CR>", {})
