@@ -4,6 +4,8 @@ return {
 		require("lualine").setup({
 			options = {
 				theme = "nord",
+				component_separators = {},
+				section_separators = {},
 			},
 			sections = {
 				lualine_a = { "mode" },
