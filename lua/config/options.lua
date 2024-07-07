@@ -6,3 +6,4 @@ vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.signcolumn = "yes"
 vim.opt.scrolloff = 20
+vim.o.mouse = 'a'
