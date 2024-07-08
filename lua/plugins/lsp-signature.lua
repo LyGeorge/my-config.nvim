@@ -3,8 +3,9 @@ return {
     config = function()
         require("lsp_signature").setup({
             handler_opts = {
-                border = "none"
-            }
+                border = "none",
+            },
+            hint_enable = false
         })
     end
 }

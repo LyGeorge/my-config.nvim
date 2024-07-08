@@ -6,4 +6,6 @@ vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.signcolumn = "yes"
 vim.opt.scrolloff = 20
+vim.opt.splitright = true
+vim.opt.splitbelow = true
 vim.o.mouse = 'a'
