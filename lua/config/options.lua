@@ -10,7 +10,3 @@ vim.opt.splitright = true
 vim.opt.splitbelow = true
 vim.o.mouse = "a"
 vim.o.updatetime = 250
-
-vim.diagnostic.config({
-	virtual_text = false,
-})
