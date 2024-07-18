@@ -17,7 +17,7 @@ return {
 
         require("telescope").setup({
             defaults = {
-                path_display = { "smart" }
+                path_display = { "tail" }
             },
             extensions = {
                 ["ui-select"] = {
